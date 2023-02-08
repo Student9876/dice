@@ -1,0 +1,75 @@
+/* Body  */
+
+/* Heading Div  */
+.heading {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    background-color: #EEE9DA;
+    padding: 2rem 0rem;
+}
+
+
+
+/* Player Name Section  */
+.player_name {
+    text-align: center;
+    background-color: #FFE7CC;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/* Dice Section  */
+.dice_section {
+    width: 20rem;
+    height: 20rem;
+    padding-top: 2rem;   
+}
+
+#resultOfDIce{
+  width: 10rem;
+  height: 10rem;
+}
+
+
+/* Button Section  */
+
+.btn {
+    width: 1rem;
+}
+
+  /* Result Section  */
+#resultOfDice{
+    width:600px;
+    height:350px;
+}
+
+
+/* Media Query  */
+@media(max-width: 860px) {
+  .dice_section {
+    width: 15rem;
+    height: 15rem;
+    padding-top: 2rem;   
+}
+}
+
+@media(max-width: 550px) {
+  .dice_section {
+    width: 10rem;
+    height: 10rem;
+    padding-top: 2rem;   
+  }
+}
+@media(max-width: 610px){
+  #resultOfDice{
+    width:400px;
+    height:250px;
+  }
+}
+@media(max-width: 440px) {
+  .dice_section {
+    width: 10rem;
+    height: 10rem;
+    padding-top: 2rem;   
+}
+}
