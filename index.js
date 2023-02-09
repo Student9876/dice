@@ -49,9 +49,11 @@ function changeImage2(){
 function showResult(){
 
     if(val1>val2){
-        document.querySelector('#resultOfDice').setAttribute('src','Images/Player1.png');
+        document.querySelector('#resultOfDice').setAttribute('src','Images/player1.png');
+        document.querySelector('#resultOfDice').setAttribute('alt','Player 1 win!!');
     }else if(val1<val2){
-        document.querySelector('#resultOfDice').setAttribute('src','Images/Player2.png');
+        document.querySelector('#resultOfDice').setAttribute('src','Images/player2.png');
+        document.querySelector('#resultOfDice').setAttribute('alt','Player 2 win!!');
     }else{
         document.querySelector('#resultOfDice').setAttribute('src','Images/draw.png');
     }
