@@ -49,9 +49,9 @@ function changeImage2(){
 function showResult(){
 
     if(val1>val2){
-        document.querySelector('#resultOfDice').setAttribute('src','Images/player1.png');
+        document.querySelector('#resultOfDice').setAttribute('src','Images/Player1.png');
     }else if(val1<val2){
-        document.querySelector('#resultOfDice').setAttribute('src','Images/player2.png');
+        document.querySelector('#resultOfDice').setAttribute('src','Images/Player2.png');
     }else{
         document.querySelector('#resultOfDice').setAttribute('src','Images/draw.png');
     }
