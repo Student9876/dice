@@ -9,6 +9,16 @@
 }
 
 
+/* darkmode button  */
+
+#modechange {
+  background-color: transparent;
+  border: 0;
+}
+
+#modeBtn {
+  color: black;
+}
 
 /* Player Name Section  */
 .player_name {
